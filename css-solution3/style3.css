@@ -1,0 +1,160 @@
+*{
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family:'Roboto',Oxygen,sans-serif, serif ;
+	font-size:16px;
+	color: #201E43;
+	background-color:white;
+
+}
+#header-navbar{
+	color: #201E43 ;
+	background-color: #F7DCB9;
+	border: 0;
+	border-radius: 0;
+}
+.container{
+	margin-left: 5px;
+	
+}
+
+.navbar-brand{
+	box-sizing: border-box;
+	padding: 0px;
+	float: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.navbar-brand h1{
+	color: #201E43;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin-left: 20px;
+	font-weight: bold;
+	box-sizing: border-box;
+	margin-top: 4px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+ .navbar-brand h1 span{
+ 	color: #B80000;
+
+} 
+/**************************************navbar colapse menu**************************/
+ .navbar-aligne{
+	text-align: center;
+	background-color:#FF9800;
+	border-radius: 10px;
+}
+.navbar-aligne span{
+	color: #201E43;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav li a{
+	transition: .5s;
+	border-radius: 10px;
+} 
+
+.nav li a:hover{
+ 	background-color: #FFEEAD;
+ }
+ .navbar-header{
+ 	float: right;
+ }
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+ 	border: 1px solid black;
+ 	transition: .5s;
+ }
+ .navbar-default .navbar-toggle:hover{
+  	background-color: #FF9800;
+  }
+  .navbar-header button.navbar-toggle{
+  	clear: both;
+  	margin-top: 15px;
+  }
+
+/*****************  Heading Style ****************/
+
+#main-content{
+	margin-top: 100px;
+	color: #201E43;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-main-content{
+	width: 400px;
+	height: auto;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color:#F7DCB9;
+	border-radius: 10px;
+	padding: 0px;
+	transition: 2s;
+	left: 50px;
+
+}
+.container-main-content:hover{
+	border:1px solid #201E43;
+
+}
+
+
+.header-content{
+	background-color: #FF8343;
+	border-radius: 10px 10px 0px 0px;
+	font-size: 1.3em;
+	width: auto;
+}
+.header-content p{
+	text-align: center;
+    font-weight: bold;
+
+
+}
+.container-main-content p{
+	padding: 15px;
+}
+
+/*@media(min-width: 1999px){
+	.container-main-content{
+		width: 300px;
+	}
+}*/
+
+@media(min-width: 992px) and (max-width: 1200px){
+	
+	div.col-md-4{
+		width: 300px;
+		left: 30px;
+	}
+
+}
+
+
+
+@media(max-width: 767px){
+	div.col-sm-12{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		left:0px;
+		
+	} 
+	.navbar-brand h1{
+		font-size: 1.7em;
+
+	}
+	
+}
+  
+
+
